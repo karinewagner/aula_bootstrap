@@ -1,0 +1,53 @@
+
+body{
+    font: 20px Arial;
+    color: white;
+}
+
+.logo-nav{
+    margin-left: 1rem;
+}
+
+.navbar{                     /* efeito de coloração gadual, pegar no site https://cssgradient.io/gradient-backgrounds/ */
+    /* background-color: #A569BD; */
+    background-color: #847b84;
+background-image: linear-gradient(0deg, #847b84 0%, #b75db9 43%, #449ba7 91%, #ffffff 100%);
+}
+
+.nav-item{
+    /* background-color: #BB8FCE; */
+    margin-right: .5rem;
+    border-radius: .25rem;
+    font-weight: bold;
+}
+
+.nav-item:hover {            /* efeito para ser ativo, apenas quando passar o mouse sobre */
+    background-color: #BB8FCE; 
+}
+
+.nav-item > .nav-link{
+    color: white !important;
+}
+
+.quem-somos {
+    background-color: #847b84;
+    padding: 20px;
+    color: white;
+}
+
+.margin{
+    padding-bottom: 50px;
+    padding-top: 10px;
+   }
+
+.parceiros{
+    background: #BB8FCE;
+}
+
+.servicos{
+    background: #449ba7;
+}
+
+.bg-footer{
+    background-color: black;
+}
